@@ -6,7 +6,7 @@ console.log("Starting application....")
 
 app.get ('/', (req, res)=>{
 
-res.send("Hello World to test the changes")
+res.send("Hello World to test the changes and others")
 
 })
 
