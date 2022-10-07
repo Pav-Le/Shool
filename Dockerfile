@@ -1,6 +1,6 @@
 FROM node:15.4
 WORKDIR /app
-COPY package*.json . 
+COPY package*.json ./
 RUN npm install
-COPY . ./
+COPY . .
 CMD node index.js
